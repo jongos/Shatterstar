@@ -8,4 +8,6 @@ Example invocation: `$shatterstar-product-simplification Assess these overlappin
 
 Shatterstar evaluates the costs and task coverage of subtraction. It is not generic UI criticism, automatic redesign or authorization to delete implementation. Longshot tests rendered interfaces; Dazzler creates them. Those distinct tools may inform later work but are not dependencies.
 
+Applications include navigation/dashboard consolidation, advanced controls, onboarding/forms, administrative workflows and feature retirement. [Research foundations and limits](skills/shatterstar-product-simplification/references/research.md) connect these uses to subtraction research, feature fatigue, information foraging, progressive disclosure, accessibility and operational retirement practice. Research informs the draft; it does not establish its efficacy.
+
 See the [fictional worked example](skills/shatterstar-product-simplification/references/fictional-output-views.md). Validation covers structure and draft read-through only. No real application testing or human efficacy validation has been performed; predicted benefits remain hypotheses. No market-first or trademark-clearance claim is made.
