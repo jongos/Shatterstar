@@ -4,7 +4,7 @@
 
 **Less Interface. Still the Whole Job.**
 
-Shatterstar is an agent skill for product and interface simplification. It helps teams decide what to remove, combine, hide or defer while protecting the jobs people rely on—including rare but critical actions.
+Shatterstar helps product teams decide what to remove, combine, hide or defer while preserving essential tasks—including rare but critical actions.
 
 ## Put It to Work
 
@@ -13,11 +13,11 @@ Shatterstar is an agent skill for product and interface simplification. It helps
 - **Long onboarding flows:** defer optional questions while keeping interdependent decisions together.
 - **Feature retirement:** identify consumers, dependencies and replacement gaps before committing to removal.
 
-You receive ranked proposals, preserved-task checks, explicit tradeoffs and a reversible experiment or rollback plan. Keeping or clarifying the current design remains a valid choice. Low usage alone does not mean low value.
+You receive ranked proposals, task checks, tradeoffs and an experiment or rollback plan. Each proposal is compared with keeping or clarifying the current design.
 
 ## Make the Case for Simplification
 
-Make [shatterstar-product-simplification](skills/shatterstar-product-simplification/SKILL.md) available to a compatible skill-capable agent. Supply tasks, interface artifacts and whatever evidence exists. Analytics are optional.
+Install [shatterstar-product-simplification](skills/shatterstar-product-simplification/SKILL.md) in an agent that supports skills. Supply tasks, interface artifacts and whatever evidence exists. Analytics are optional.
 
 ```text
 Use $shatterstar-product-simplification to assess these duplicate output
@@ -31,12 +31,13 @@ consolidation with keeping the views and clarifying their labels.
 
 | Project | How It Complements This Work |
 |---|---|
-| [Dazzler](https://github.com/jongos/Dazzler) | Create and refine expressive interfaces, documents and visual stories. |
-| [Longshot](https://github.com/jongos/Longshot) | Independently attempt rendered interface tasks and return reproducible evidence. |
-| [Style Science](https://github.com/jongos/style-science) | Make design requirements, constraints and evidence inspectable. |
-| [Spiral](https://github.com/jongos/Spiral) | Trace multi-person workflows, handoffs and waiting states before building. |
+| [Dazzler](https://github.com/jongos/Dazzler) | Create and refine interfaces, documents and slides. |
+| [Longshot](https://github.com/jongos/Longshot) | Test interface tasks and report reproducible findings. |
+| [Style Science](https://github.com/jongos/style-science) | Connect design requirements to measurable checks and evidence. |
+| [Spiral](https://github.com/jongos/Spiral) | Find gaps in workflow handoffs, ownership and recovery. |
+| [Mojo](https://github.com/jongos/Mojo) | Make AI outputs clear and direct. |
 
-[Hex Men](https://github.com/jongos/Hex-Men) brings the collection together. Choose the project your question needs; there is no required sequence.
+[Explore Hex Men](https://github.com/jongos/Hex-Men) for tools that complement your task.
 
 ## Further Reading
 

@@ -19,3 +19,13 @@
 **Why:** Keep first-time reading focused on what the project does and when to use it.
 
 **Validation:** Local README/reference/site links and anchors checked. Desktop (1440px) and mobile (390px) browser views reviewed with no horizontal page overflow. This is editorial/layout validation, not human efficacy testing.
+
+## 2026-10-24 — Mojo Marketing Copy Review
+
+**Changed:** Tightened product introductions and removed repeated qualifications and explanations. Preserved setup requirements, commands, material claims and each project’s voice.
+
+**Added:** Mojo links in the companion lists.
+
+**Why:** Help readers understand the product and choose their next action with less reading.
+
+**Validation:** Local links and command preservation checked. Landing pages checked in Chrome at 1440, 390 and 320 pixels: no horizontal overflow, broken in-page anchors or script errors. Rendered desktop/mobile copy reviewed. Canonical skill instructions and runtime behavior are unchanged.
