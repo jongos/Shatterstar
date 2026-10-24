@@ -1,23 +1,45 @@
-![Shatterstar — Remove the Burden. Preserve the Job.](docs/readme-banner.svg)
+![Shatterstar](docs/readme-banner.svg)
 
 # Shatterstar
 
-Draft agent skill for evidence-backed product and interface simplification. For product managers, designers and engineers considering what to remove, combine, hide or defer while protecting important user jobs.
+**Less Interface. Still the Whole Job.**
 
-Use [shatterstar-product-simplification](skills/shatterstar-product-simplification/SKILL.md) with task descriptions, interface artifacts, dependencies and whatever research or usage evidence exists. Analytics are optional; unknowns stay explicit.
+Shatterstar is a research-informed draft skill for product and interface simplification. It helps teams decide what to remove, combine, hide or defer while protecting the jobs people rely on—including rare but critical actions.
 
-Example invocation: `$shatterstar-product-simplification Assess these overlapping output views. Rank subtraction proposals, preserve retrieval, comparison, export and recovery, and define reversible experiments with falsifiable criteria.`
+## Put It to Work
 
-Shatterstar evaluates the costs and task coverage of subtraction. It is not generic UI criticism, automatic redesign or authorization to delete implementation. Longshot tests rendered interfaces; Dazzler creates them. Those distinct tools may inform later work but are not dependencies.
+- **Overlapping destinations:** assess whether several output views can become one useful place.
+- **Crowded settings:** distinguish everyday choices from advanced controls without losing access.
+- **Long onboarding flows:** defer optional questions while keeping interdependent decisions together.
+- **Feature retirement:** identify consumers, dependencies and replacement gaps before committing to removal.
 
-Applications include navigation/dashboard consolidation, advanced controls, onboarding/forms, administrative workflows and feature retirement. [Research foundations and limits](skills/shatterstar-product-simplification/references/research.md) connect these uses to subtraction research, feature fatigue, information foraging, progressive disclosure, accessibility and operational retirement practice. Research informs the draft; it does not establish its efficacy.
+You receive ranked proposals, preserved-task checks, explicit tradeoffs and a reversible experiment or rollback plan. Keeping or clarifying the current design remains a valid choice. Low usage alone does not mean low value.
 
-See the [fictional worked example](skills/shatterstar-product-simplification/references/fictional-output-views.md). Validation covers structure and draft read-through only. No real application testing or human efficacy validation has been performed; predicted benefits remain hypotheses. No market-first or trademark-clearance claim is made.
+## Make the Case for Simplification
 
-## Landing Page Source
+Make [shatterstar-product-simplification](skills/shatterstar-product-simplification/SKILL.md) available to a compatible skill-capable agent. Supply tasks, interface artifacts and whatever evidence exists. Analytics are optional.
 
-[Preview source](docs/index.html) · [Design notes](docs/DESIGN.md). The responsive static page is checked in but not publicly deployed. To preview a local checkout with Python available, run `python -m http.server 8000 --bind 127.0.0.1 --directory docs` and open `http://127.0.0.1:8000`. No installation is needed for the site itself.
+```text
+Use $shatterstar-product-simplification to assess these duplicate output
+views. Preserve retrieval, comparison, export and recovery. Compare
+consolidation with keeping the views and clarifying their labels.
+```
 
-The page uses original vector illustrations and locally bundled Inter and League Gothic fonts, with their notices in `docs/fonts/`. Public hosting or Pages configuration requires a separate publication decision; repository visibility remains unchanged.
+[Explore the fictional proposal](skills/shatterstar-product-simplification/references/fictional-output-views.md) · [Research and limits](skills/shatterstar-product-simplification/references/research.md)
 
-[Desktop preview](docs/previews/desktop.jpg) · [Mobile preview](docs/previews/mobile.jpg) · [Validation scope](docs/VALIDATION.md)
+Predicted benefits remain hypotheses. This draft has not been validated for human efficacy, and invoking it does not authorize deletion, rollout or automatic redesign.
+
+## In the Hex Men Family
+
+| Project | How It Complements This Work |
+|---|---|
+| [Dazzler](https://github.com/jongos/Dazzler) | Create and refine expressive interfaces, documents and visual stories. |
+| [Longshot](https://github.com/jongos/Longshot) | Independently attempt rendered interface tasks and return reproducible evidence. |
+| [Style Science](https://github.com/jongos/style-science) | Make design requirements, constraints and evidence inspectable. |
+| [Spiral](https://github.com/jongos/Spiral) | Trace multi-person workflows, handoffs and waiting states before building. |
+
+[Hex Men](https://github.com/jongos/Hex-Men) brings the collection together. Choose the project your question needs; there is no required sequence. Spiral and Shatterstar are research-informed drafts and their repositories require access.
+
+## Further Reading
+
+[Detailed project reference](REFERENCE.md) · [Landing page](docs/index.html) · [Preview and validation notes](REFERENCE.md#landing-page-source)
