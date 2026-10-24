@@ -1,0 +1,93 @@
+{
+  "capturedAt": "2026-10-24T14:19:55.126Z",
+  "browser": "155.0.8059.84",
+  "playwright": "1.62.1",
+  "fullPage": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "contrast": [
+        {
+          "selector": "body",
+          "fg": "rgb(41, 41, 31)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 12.650735268177892
+        },
+        {
+          "selector": ".button",
+          "fg": "rgb(243, 238, 223)",
+          "bg": "rgb(182, 61, 32)",
+          "ratio": 4.923706135979786
+        },
+        {
+          "selector": ".eyebrow",
+          "fg": "rgb(182, 61, 32)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 4.923706135979786
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "contrast": [
+        {
+          "selector": "body",
+          "fg": "rgb(41, 41, 31)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 12.650735268177892
+        },
+        {
+          "selector": ".button",
+          "fg": "rgb(243, 238, 223)",
+          "bg": "rgb(182, 61, 32)",
+          "ratio": 4.923706135979786
+        },
+        {
+          "selector": ".eyebrow",
+          "fg": "rgb(182, 61, 32)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 4.923706135979786
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "overflow": false,
+      "contrast": [
+        {
+          "selector": "body",
+          "fg": "rgb(41, 41, 31)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 12.650735268177892
+        },
+        {
+          "selector": ".button",
+          "fg": "rgb(243, 238, 223)",
+          "bg": "rgb(182, 61, 32)",
+          "ratio": 4.923706135979786
+        },
+        {
+          "selector": ".eyebrow",
+          "fg": "rgb(182, 61, 32)",
+          "bg": "rgb(243, 238, 223)",
+          "ratio": 4.923706135979786
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "docs/index.html": "3ddbf61f39cf67fb4f5f7a4c5c8fc63190d782be6a384538a320a57daf68f72a",
+    "docs/style.css": "0d3071e7fd0d826e5e7db91f6b4b6ed90c28c0646634d39d885978af34774de9",
+    "docs/illustration.svg": "c0ec5a7c07d3a37076bbd1346b2fc9b1669c260456ea0d52b1602438ba889b8b",
+    "docs/fonts/inter.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+    "docs/fonts/league.woff2": "db32567c13d70986cb8c6c93e932794eb77900e36d4711e794078b0cd6218551",
+    "docs/previews/desktop.jpg": "a39ce55f3f8daccac22878463514ceb0d2b4b119813432363afe911fbff0059e",
+    "docs/previews/mobile.jpg": "d989742878026233029018696bb84e81db7f08b97b1a182b2b2fd5f8ff71a4ea",
+    "scripts/check-browser.cjs": "fad409a92208db8ba9c451a8597e62f20ed94fa45bba605668fbc73f75bcfcfa"
+  }
+}

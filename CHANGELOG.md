@@ -1,8 +1,18 @@
 # Changelog
 
+## Unreleased - Local maintenance review (2026-10-24)
+
+**Changed:** Added project-scoped Codex installation instructions and explicit compatibility limits. Clarified W3C source guidance versus Shatterstar’s derived rare-action check, and included Nielsen’s disclosure-depth guidance. Corrected unrelated/plural wording in historical changelog entries. Regenerated desktop/mobile previews from the current page.
+
+**Added:** Offline structural validation, local browser checks, documented run commands, and a preview manifest recording source/image hashes and capture details.
+
+**Validation:** Structural and browser checks passed at 1440, 390 and 320 pixels; selected contrast pairs exceeded 4.5:1. Full-page desktop/mobile captures visually reviewed. Installation copy and existing-target guard checked in an isolated temporary project. These checks do not establish skill efficacy or full accessibility.
+
+**Scope:** Local review only. Core skill instructions, license, public deployment and repository settings unchanged.
+
 ## 2026-10-24 - Focused Marketing Copy
 
-**Changed:** Removed repeated maturity labels and research disclaimers from the README and landing page. Kept purpose, uses, companion roles and operational instructions. Existing follow-up-review explanations remain intact.
+**Changed:** Removed repeated maturity labels and research disclaimers from the README and landing page. Kept purpose, uses, companion roles and operational instructions.
 
 **Added:** None.
 
@@ -22,10 +32,10 @@
 
 ## 2026-10-24 — Mojo Marketing Copy Review
 
-**Changed:** Tightened product introductions and removed repeated qualifications and explanations. Preserved setup requirements, commands, material claims and each project’s voice.
+**Changed:** Tightened product introductions and removed repeated qualifications and explanations. Preserved setup requirements, commands, material claims and Shatterstar’s voice.
 
-**Added:** Mojo links in the companion lists.
+**Added:** Mojo links in the companion list.
 
 **Why:** Help readers understand the product and choose their next action with less reading.
 
-**Validation:** Local links and command preservation checked. Landing pages checked in Chrome at 1440, 390 and 320 pixels: no horizontal overflow, broken in-page anchors or script errors. Rendered desktop/mobile copy reviewed. Canonical skill instructions and runtime behavior are unchanged.
+**Validation:** Local links and command preservation checked. Landing page checked in Chrome at 1440, 390 and 320 pixels: no horizontal overflow, broken in-page anchors or script errors. Rendered desktop/mobile copy reviewed. Canonical skill instructions and runtime behavior are unchanged.

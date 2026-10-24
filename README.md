@@ -17,7 +17,7 @@ You receive ranked proposals, task checks, tradeoffs and an experiment or rollba
 
 ## Make the Case for Simplification
 
-Install [shatterstar-product-simplification](skills/shatterstar-product-simplification/SKILL.md) in an agent that supports skills. Supply tasks, interface artifacts and whatever evidence exists. Analytics are optional.
+Follow the [installation instructions](REFERENCE.md#installation) to add the complete skill folder to your agent. Supply tasks, interface artifacts and whatever evidence exists. Analytics are optional.
 
 ```text
 Use $shatterstar-product-simplification to assess these duplicate output
