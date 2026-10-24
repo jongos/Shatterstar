@@ -4,7 +4,7 @@
 
 **Less Interface. Still the Whole Job.**
 
-Shatterstar is a research-informed draft skill for product and interface simplification. It helps teams decide what to remove, combine, hide or defer while protecting the jobs people rely on—including rare but critical actions.
+Shatterstar is an agent skill for product and interface simplification. It helps teams decide what to remove, combine, hide or defer while protecting the jobs people rely on—including rare but critical actions.
 
 ## Put It to Work
 
@@ -25,9 +25,7 @@ views. Preserve retrieval, comparison, export and recovery. Compare
 consolidation with keeping the views and clarifying their labels.
 ```
 
-[Explore the fictional proposal](skills/shatterstar-product-simplification/references/fictional-output-views.md) · [Research and limits](skills/shatterstar-product-simplification/references/research.md)
-
-Predicted benefits remain hypotheses. This draft has not been validated for human efficacy, and invoking it does not authorize deletion, rollout or automatic redesign.
+[Explore the fictional proposal](skills/shatterstar-product-simplification/references/fictional-output-views.md) · [Research foundations](skills/shatterstar-product-simplification/references/research.md)
 
 ## In the Hex Men Family
 
@@ -38,8 +36,8 @@ Predicted benefits remain hypotheses. This draft has not been validated for huma
 | [Style Science](https://github.com/jongos/style-science) | Make design requirements, constraints and evidence inspectable. |
 | [Spiral](https://github.com/jongos/Spiral) | Trace multi-person workflows, handoffs and waiting states before building. |
 
-[Hex Men](https://github.com/jongos/Hex-Men) brings the collection together. Choose the project your question needs; there is no required sequence. Spiral and Shatterstar are research-informed drafts and their repositories require access.
+[Hex Men](https://github.com/jongos/Hex-Men) brings the collection together. Choose the project your question needs; there is no required sequence.
 
 ## Further Reading
 
-[Detailed project reference](REFERENCE.md) · [Landing page](docs/index.html) · [Preview and validation notes](REFERENCE.md#landing-page-source)
+[Detailed project reference](REFERENCE.md) · [Landing page](docs/index.html) · [Page preview notes](REFERENCE.md#landing-page-source)
