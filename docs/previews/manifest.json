@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-10-24T14:19:55.126Z",
-  "browser": "155.0.8059.84",
+  "capturedAt": "2026-10-30T12:58:15.924Z",
+  "browser": "156.0.8078.79",
   "playwright": "1.62.1",
   "fullPage": true,
   "results": [
@@ -11,21 +11,21 @@
       "contrast": [
         {
           "selector": "body",
-          "fg": "rgb(41, 41, 31)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 12.650735268177892
+          "fg": "rgb(244, 239, 255)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 14.703948327919155
         },
         {
           "selector": ".button",
-          "fg": "rgb(243, 238, 223)",
-          "bg": "rgb(182, 61, 32)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(33, 27, 50)",
+          "bg": "rgb(196, 181, 253)",
+          "ratio": 8.974432094169075
         },
         {
           "selector": ".eyebrow",
-          "fg": "rgb(182, 61, 32)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(196, 181, 253)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 8.974432094169075
         }
       ]
     },
@@ -36,21 +36,21 @@
       "contrast": [
         {
           "selector": "body",
-          "fg": "rgb(41, 41, 31)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 12.650735268177892
+          "fg": "rgb(244, 239, 255)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 14.703948327919155
         },
         {
           "selector": ".button",
-          "fg": "rgb(243, 238, 223)",
-          "bg": "rgb(182, 61, 32)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(33, 27, 50)",
+          "bg": "rgb(196, 181, 253)",
+          "ratio": 8.974432094169075
         },
         {
           "selector": ".eyebrow",
-          "fg": "rgb(182, 61, 32)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(196, 181, 253)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 8.974432094169075
         }
       ]
     },
@@ -61,34 +61,33 @@
       "contrast": [
         {
           "selector": "body",
-          "fg": "rgb(41, 41, 31)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 12.650735268177892
+          "fg": "rgb(244, 239, 255)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 14.703948327919155
         },
         {
           "selector": ".button",
-          "fg": "rgb(243, 238, 223)",
-          "bg": "rgb(182, 61, 32)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(33, 27, 50)",
+          "bg": "rgb(196, 181, 253)",
+          "ratio": 8.974432094169075
         },
         {
           "selector": ".eyebrow",
-          "fg": "rgb(182, 61, 32)",
-          "bg": "rgb(243, 238, 223)",
-          "ratio": 4.923706135979786
+          "fg": "rgb(196, 181, 253)",
+          "bg": "rgb(33, 27, 50)",
+          "ratio": 8.974432094169075
         }
       ]
     }
   ],
   "sha256": {
-    "docs/index.html": "20fca297f6695060bf33161cb033df9f17ad7149035b823a71f0723685ec2cc4",
-    "docs/style.css": "7a4705da383c08df5e93c1c50fa89b9b85096257a78b908ba7094a8cbc0b4cec",
+    "docs/index.html": "767c6477e469af8366d70802bc0ede99902cc775311ca585555a66faf68d2432",
+    "docs/style.css": "6b4a5dfe32c0cb99ed59c6a7c760829dff3998b997ee69bbeb894dc39d26cbcc",
     "docs/illustration.svg": "c0ec5a7c07d3a37076bbd1346b2fc9b1669c260456ea0d52b1602438ba889b8b",
     "docs/fonts/inter.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
     "docs/fonts/league.woff2": "db32567c13d70986cb8c6c93e932794eb77900e36d4711e794078b0cd6218551",
-    "docs/previews/desktop.jpg": "a39ce55f3f8daccac22878463514ceb0d2b4b119813432363afe911fbff0059e",
-    "docs/previews/mobile.jpg": "d989742878026233029018696bb84e81db7f08b97b1a182b2b2fd5f8ff71a4ea",
+    "docs/previews/desktop.jpg": "037f10622a5bcc7dbf3fca0cf39ca7a0bb1853f310b0105db6988ea87a84e0f6",
+    "docs/previews/mobile.jpg": "9e760a6e02a8f4100be01143b51948932e5938b79523c5b0b02398e30ede022b",
     "scripts/check-browser.cjs": "9d114e74d031bd13cf9ee18e502094378a7256533cd75a13386677aa3b291883"
-  },
-  "hashPolicy": "Text HTML/CSS/SVG/CJS normalized CRLF to LF; binaries byte-exact. Hashes migrated 2026-10-30; original captures retained."
+  }
 }

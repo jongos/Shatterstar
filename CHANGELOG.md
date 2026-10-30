@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.0 - 2026-10-30
+
+First packaged release: product simplification, agent resource review, storage-lifecycle guidance and portable validation. Hex Men collection design, GitHub Pages and a complete skill ZIP. License terms unchanged.
+
 ## Unreleased - Storage lifecycle
 
 Added task artifact guidance covering retention categories, reuse, databases, migrations, cloud placeholders and authorized cleanup receipts. Regression tests now require a bounded external artifact root and task ID, record provenance/results, and emit exact-file cleanup proposals without deletion.

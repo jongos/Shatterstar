@@ -6,3 +6,5 @@
 
 /* Related-project editorial section follows the existing type and palette. */
 .family-editorial{max-width:72rem;margin:3rem auto;padding:2rem clamp(1rem,4vw,3rem);border-top:1px solid currentColor}.family-editorial p{max-width:65ch;line-height:1.65}.family-editorial h2{font-size:clamp(1.8rem,4vw,3rem);line-height:1.15}.family-editorial a{text-decoration:underline;text-underline-offset:.2em}
+
+.prompt{max-width:60ch;padding:24px;border-left:3px solid var(--accent);background:#ffffff08;line-height:1.8}.prompt code{font-family:Inter,Arial,sans-serif;overflow-wrap:anywhere}.family-editorial p{max-width:60ch}

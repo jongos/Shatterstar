@@ -47,3 +47,7 @@ Windows regression run (2026-10-30): LF and CRLF copies returned exit code 0; ge
 ## Bounded regression artifacts
 
 The line-ending runner requires an explicit local artifact root outside the checkout and a unique task ID. Select a nonsynced location. Its default proposed budget is 20,000,000 logical bytes across that root; override with `--budget-bytes` only after reviewing the required size. It reserves metadata space before copying, refuses existing task folders, and retains a register plus exact-file cleanup review on completion/failure. No files are deleted. The full-tree fixture preserves integration coverage; no claim is made that this is a minimal fixture. Budget checks are admission/completion checks, not a filesystem quota or continuous peak monitor. Do not run concurrent writers against the same budget root.
+
+## v0.1.0 site validation
+
+The Hex Men redesign passed Chrome checks at 1440, 390 and 320 pixels on 2026-10-30. Selected contrast minimum: 8.97:1. Desktop/mobile full-page previews regenerated and visually reviewed. Earlier color measurements above refer to the prior design.

@@ -1,13 +1,5 @@
 # Shatterstar Landing Page
 
-## Direction
+v0.1.0 matches the Hex Men collection: plum #211b32, lavender #c4b5fd, light #f4efff, locally bundled League Gothic and Inter, ruled editorial sections. Shatterstar retains its paper-colored subtraction diagram as a distinct explanation within the collection.
 
-Remove the Burden. Preserve the Job. The page uses an editorial subtraction diagram on warm paper to make retained task coverage explicit. Body text uses locally bundled Inter; League Gothic supplies compact display typography. Graphics are original SVGs, not character artwork.
-
-## Scope
-
-Static HTML and CSS, native links and disclosure controls; no analytics, external font requests, JavaScript dependencies or deployment configuration. Canonical skill instructions remain in their existing source files. Research claims and draft limits remain explicit. Preserve these constraints in future edits.
-
-## Preview
-
-Serve this directory locally; index.html and style.css are the canonical page sources. README artwork is readme-banner.svg. Font licenses and copyright notices are retained in fonts/. A local preview is not a public deployment or human usability validation.
+Voice: deliberate, economical and accountable. Bold reduction language is paired with concrete preservation and resource decisions. Static HTML/CSS and native disclosures; no analytics, remote fonts or JavaScript runtime. Validate narrow/wide layouts, resources, keyboard behavior and contrast with the browser script. Preview evidence is not human usability certification.

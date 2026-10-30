@@ -2,7 +2,9 @@
 
 # Shatterstar
 
-**Less Interface. Still the Whole Job.**
+**Keep the Goal. Lose the Waste.**
+
+[Live Site](https://jongos.github.io/Shatterstar/) · [Release v0.1.0](https://github.com/jongos/Shatterstar/releases/tag/v0.1.0)
 
 Shatterstar helps product teams decide what to remove, combine, hide or defer while preserving essential tasks—including rare but critical actions.
 
