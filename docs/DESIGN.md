@@ -1,5 +1,7 @@
 # Shatterstar Landing Page
 
-v0.1.0 matches the Hex Men collection: plum #211b32, lavender #c4b5fd, light #f4efff, locally bundled League Gothic and Inter, ruled editorial sections. Shatterstar retains its paper-colored subtraction diagram as a distinct explanation within the collection.
+A distinct member of the individual app collection, not a copy of the Hex Men hub. Dazzler’s field-guide approach and Spiral’s concrete scenario panel inform the emphasis on understandable examples and installation. Shatterstar uses warm paper, dark ink, rust accents, League Gothic and Inter already bundled locally.
 
-Voice: deliberate, economical and accountable. Bold reduction language is paired with concrete preservation and resource decisions. Static HTML/CSS and native disclosures; no analytics, remote fonts or JavaScript runtime. Validate narrow/wide layouts, resources, keyboard behavior and contrast with the browser script. Preview evidence is not human usability certification.
+Defining move: an illustrative plan-review sheet juxtaposes an expensive approach with a bounded alternative, preserving correctness and recovery. The page explains product simplification, agent resource review and storage lifecycle. No fabricated metrics or savings. Static native controls, no runtime dependencies. Validate keyboard behavior, contrast and narrow/wide layouts.
+
+Sparse four-point star marks appear beside the wordmark, as a small three-star cluster in the plan-review sheet, and beside the footer identity. CSS-only and hidden from assistive technology; no animation or added downloads.

@@ -2,7 +2,7 @@
 
 ## v0.1.0 - 2026-10-30
 
-First packaged release: product simplification, agent resource review, storage-lifecycle guidance and portable validation. Hex Men collection design, GitHub Pages and a complete skill ZIP. License terms unchanged.
+First packaged release: product simplification, agent resource review, storage-lifecycle guidance and portable validation. Distinct app-collection design with subtle star accents, GitHub Pages and a complete skill ZIP. License terms unchanged.
 
 ## Unreleased - Storage lifecycle
 

@@ -50,4 +50,4 @@ The line-ending runner requires an explicit local artifact root outside the chec
 
 ## v0.1.0 site validation
 
-The Hex Men redesign passed Chrome checks at 1440, 390 and 320 pixels on 2026-10-30. Selected contrast minimum: 8.97:1. Desktop/mobile full-page previews regenerated and visually reviewed. Earlier color measurements above refer to the prior design.
+The individual-app collection redesign passed Chrome checks at 1440, 390 and 320 pixels on 2026-10-30. Selected contrast minimum: 5.60:1. Desktop/mobile full-page previews regenerated and visually reviewed. Earlier color measurements above refer to the prior design.
