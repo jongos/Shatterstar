@@ -1,6 +1,6 @@
 ---
 name: shatterstar-product-simplification
-description: Assess evidence-backed removal, consolidation, hiding or deferral of product features and interface controls while preserving important tasks, accessibility and rare critical actions. Use for deliberate simplification proposals, not generic UI criticism or automatic redesign.
+description: Assess evidence-backed removal, consolidation, hiding or deferral of product features and interface controls while preserving important tasks, accessibility and rare critical actions. Also challenge agent implementation plans for unnecessary complexity, storage, memory and compute costs. Use for deliberate simplification and resource reviews, not automatic redesign or cleanup.
 ---
 
 # Shatterstar product simplification
@@ -26,6 +26,26 @@ For each proposal specify the exact subtraction, remaining entry point, task cov
 Rank proposals by evidence strength, plausible task benefit, regression severity, dependency cost and reversibility. Use qualitative judgments with reasons when data is insufficient; avoid fabricated precision. Explain why retaining a candidate may outrank removing it.
 
 Hidden controls need recognizable labels, accessible entry points and return paths. Search or command palettes do not automatically replace recognizable navigation. Separate interface changes from capability retirement: inventory known and unknown consumers, APIs, integrations, saved data, deep links and permissions. Require replacement coverage, migration/notice/support plans, ownership, rollback feasibility and explicit blockers before recommending retirement. A hidden button is not a retired feature; a feature flag cannot undo incompatible data changes.
+
+## Challenge agent implementation plans
+
+Apply this review before substantial implementation, dependency installation, bulk downloads, replication or persistent infrastructure, and again when the plan materially expands. For a small change, use a short comparison; do not create an audit system larger than the work. Invoking this skill alone remains review-only.
+
+Define the required outcome, correctness, reliability, security, recovery and performance constraints first. Compare the proposed approach with reuse of existing capabilities and a smaller viable implementation. Explain why each new service, dependency, data copy, index, cache, environment or abstraction is necessary. Prefer the simplest approach that meets the constraints, not the shortest code or lowest byte count at any cost. Do not claim a globally optimal design without evidence.
+
+Account for peak and retained disk usage separately, including inputs, expanded downloads, intermediate files, outputs, logs, backups, build artifacts and duplicate environments. Account for peak and idle RAM, concurrent workers and per-worker buffers; consider CPU/GPU time, network transfer and model calls when material. Available capacity is not a reason to consume it. Distinguish measured values, estimates with assumptions, and unknowns; never invent savings or hide costs on another machine or service.
+
+Challenge whole-dataset loading when bounded streaming or batches would work, unbounded parallelism, repeated full copies, redundant dependencies, unlimited caches/logs, persistent processes for one-off jobs, and speculative infrastructure. These are candidates to investigate, not automatic prohibitions: measure the relevant tradeoff and preserve required isolation, reproducibility, latency and recovery.
+
+Before proceeding under implementation authorization, show the user the chosen approach, smaller alternative, expected resource envelope, unavoidable costs and reasons for rejecting the alternative. Use explicit user limits when supplied; otherwise propose proportionate limits with assumptions. If a material cost cannot be bounded, resolve it with a bounded probe or surface the decision before costly execution. Pause at an agreed budget breach or unexpected growth rather than silently increasing scope.
+
+For generated artifacts, define ownership, destination, lifetime, reuse and cleanup conditions. Do not delete existing user files, caches, backups or recovery material as an optimization without the necessary authorization and preservation checks. Prefer avoiding needless creation over creating bulk artifacts and promising cleanup later.
+
+Validate the chosen design against representative workloads and a credible baseline: task correctness, latency, peak memory, peak disk and retained disk where relevant. Include growth with input size and concurrency, failure recovery and cancellation. Measure the whole process tree when workers materially contribute. Keep profiling bounded. Label synthetic checks as synthetic; a smaller footprint is not proof of better performance.
+
+Deliver a compact resource decision alongside the task matrix: alternative comparison, justified additions, resource estimates or measurements, retention plan, limits/stopping conditions, unresolved uncertainty and owner decisions. Explain costs in plain language so the human can challenge them. Read the [agent resource examples](references/agent-resource-review.md) for calibration.
+
+For development and testing artifacts, apply the [storage lifecycle workflow](references/storage-lifecycle.md): task-scoped output locations, a lightweight artifact register, bounded generation and retention, and an exact-file completion review. Extend existing provenance records; do not build duplicate infrastructure.
 
 ## Make the decision testable
 

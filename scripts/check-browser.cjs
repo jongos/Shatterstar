@@ -63,7 +63,13 @@ function luminance(rgb) {
     if (update) {
       const files = ['docs/index.html', 'docs/style.css', 'docs/illustration.svg', 'docs/fonts/inter.woff2', 'docs/fonts/league.woff2', 'docs/previews/desktop.jpg', 'docs/previews/mobile.jpg', 'scripts/check-browser.cjs'];
       const sha256 = {};
-      for (const file of files) sha256[file] = createHash('sha256').update(await fs.readFile(path.join(root, file))).digest('hex');
+      for (const file of files) {
+        let data = await fs.readFile(path.join(root, file));
+        if (['.html', '.css', '.svg', '.cjs'].includes(path.extname(file))) {
+          data = Buffer.from(data.toString('utf8').replace(/\r\n/g, '\n'), 'utf8');
+        }
+        sha256[file] = createHash('sha256').update(data).digest('hex');
+      }
       await fs.writeFile(path.join(root, 'docs/previews/manifest.json'), JSON.stringify({ capturedAt: new Date().toISOString(), browser: browser.version(), playwright: require('playwright/package.json').version, fullPage: true, results, sha256 }, null, 2) + '\n');
     }
     console.log(JSON.stringify({ passed: true, results }, null, 2));

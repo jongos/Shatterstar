@@ -6,11 +6,14 @@
 
 Shatterstar helps product teams decide what to remove, combine, hide or defer while preserving essential tasks—including rare but critical actions.
 
+It also challenges agent development plans: choose a simpler implementation when it meets the goal, justify storage and memory costs, and expose tradeoffs before resources are consumed.
+
 ## Put It to Work
 
 - **Overlapping destinations:** assess whether several output views can become one useful place.
 - **Crowded settings:** distinguish everyday choices from advanced controls without losing access.
 - **Long onboarding flows:** defer optional questions while keeping interdependent decisions together.
+- **Agent implementation plans:** compare reuse, bounded processing and smaller dependencies against unnecessary copies, caches, services and memory growth.
 - **Feature retirement:** identify consumers, dependencies and replacement gaps before committing to removal.
 
 You receive ranked proposals, task checks, tradeoffs and an experiment or rollback plan. Each proposal is compared with keeping or clarifying the current design.

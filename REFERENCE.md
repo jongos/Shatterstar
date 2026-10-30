@@ -33,7 +33,7 @@ New-Item -ItemType Directory -Path $skillParent -Force | Out-Null
 Copy-Item -LiteralPath './skills/shatterstar-product-simplification' -Destination $skillParent -Recurse
 ```
 
-Confirm the installed folder contains `SKILL.md` and both reference files. Open the target project in Codex and invoke `$shatterstar-product-simplification` with a task brief. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills) for discovery and other installation scopes. For another agent, use its documented skill directory and retain this folder structure.
+Confirm the installed folder contains `SKILL.md` and all reference files. Open the target project in Codex and invoke `$shatterstar-product-simplification` with a task brief. See the [official skill documentation](https://learn.chatgpt.com/docs/build-skills) for discovery and other installation scopes. For another agent, use its documented skill directory and retain this folder structure.
 
 Compatibility status: the PowerShell copy procedure and installed file contents are checked locally; automatic discovery and an end-to-end agent run have not been tested. No other agent compatibility is claimed. Updating the checkout does not update installed copies; review changes before replacing an existing installation.
 
@@ -46,3 +46,7 @@ The page uses original vector illustrations and locally bundled Inter and League
 Previews regenerated on 2026-10-24 from the current page; source hashes and browser details are recorded in [the preview manifest](docs/previews/manifest.json).
 
 [Desktop preview](docs/previews/desktop.jpg) · [Mobile preview](docs/previews/mobile.jpg) · [Validation scope](docs/VALIDATION.md)
+
+## Agent resource review
+
+Use the skill before building or materially expanding an agent implementation. Supply the goal, constraints, proposed architecture, expected workload and known resource limits. Ask for the smallest viable alternative, peak/retained disk and RAM accounting, dependency justification and a bounded validation plan. See [worked decision cases](skills/shatterstar-product-simplification/references/agent-resource-review.md). These are engineering heuristics, not validated efficiency guarantees.

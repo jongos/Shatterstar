@@ -42,6 +42,13 @@ def anchors(path):
     return result
 
 
+def preview_hash(path):
+    data = path.read_bytes()
+    if path.suffix in ('.html', '.css', '.svg', '.cjs'):
+        data = data.replace(b'\r\n', b'\n')
+    return hashlib.sha256(data).hexdigest()
+
+
 def validate(root=ROOT):
     errors, count = [], 0
     for path in sorted(root.rglob('*')):
@@ -87,7 +94,7 @@ def validate(root=ROOT):
     else:
         for name, expected in json.loads(manifest.read_text())['sha256'].items():
             path = root / name
-            if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            if not path.exists() or preview_hash(path) != expected:
                 errors.append(f'Stale preview evidence: {name}')
     return count, errors
 

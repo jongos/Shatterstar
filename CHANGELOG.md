@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased - Storage lifecycle
+
+Added task artifact guidance covering retention categories, reuse, databases, migrations, cloud placeholders and authorized cleanup receipts. Regression tests now require a bounded external artifact root and task ID, record provenance/results, and emit exact-file cleanup proposals without deletion.
+
+## Unreleased - Agent resource review (2026-10-30)
+
+Extended the skill to challenge agent implementation complexity, dependencies, disk and memory costs before costly execution. Added alternative comparisons, resource limits, artifact lifetimes and illustrative evaluation cases. Preserves review-only scope and required functionality, isolation and recovery. Local documentation and structural validation only; no measured agent-efficiency claim.
+
 ## Unreleased - Local maintenance review (2026-10-24)
 
 **Changed:** Added project-scoped Codex installation instructions and explicit compatibility limits. Clarified W3C source guidance versus Shatterstar’s derived rare-action check, and included Nielsen’s disclosure-depth guidance. Corrected unrelated/plural wording in historical changelog entries. Regenerated desktop/mobile previews from the current page.
